@@ -3,11 +3,11 @@
 import argparse
 import pathlib
 import re
-from blue_you import exploit
+from src.blue_you import exploit
 from ipaddress import ip_address, ip_network
 from pprint import pprint
-from scanner import scanner
-from shocker import shockshell
+from src.scanner import scanner
+from src.shocker import shockshell
 from subprocess import check_output
 
 # SMB ports are 139 & 445, so look for 3 digit open ports
